@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OPDeutschland - Minecraft Server</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4fb;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 150px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background-color: #005fa3;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #004a82;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      color: #0077cc;
+    }
+    .team-member {
+      background-color: #e0ecf7;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #0077cc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #005fa3;
+    }
+    .discord-link {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .discord-link a {
+      color: #5865F2;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0077cc;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/OPDeutschland" alt="OPDeutschland Logo">
+    <h1>Willkommen bei OPDeutschland</h1>
+    <p>Dein Minecraft Citybuild Server mit Stil!</p>
+  </header>
+
+  <nav>
+    <a href="#infos">Serverinfos</a>
+    <a href="#regeln">Regeln</a>
+    <a href="#team">Team</a>
+    <a href="#shop">Shop</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section id="infos">
+    <h2>Serverinfos</h2>
+    <p><strong>IP-Adresse:</strong> opdeutschland.aternos.me</p>
+    <p><strong>Version:</strong> 1.20.4</p>
+    <p><strong>Spielmodi:</strong> Citybuild, Farmwelt, PvP, Events</p>
+  </section>
+
+  <section id="regeln">
+    <h2>Regeln</h2>
+    <ul>
+      <li>Kein Griefing oder Diebstahl.</li>
+      <li>Respektvoller Umgang mit anderen Spielern.</li>
+      <li>Keine Hacks, Mods oder X-Ray.</li>
+      <li>Werbung ist verboten.</li>
+      <li>Admins haben das letzte Wort.</li>
+    </ul>
+  </section>
+
+  <section id="team">
+    <h2>Unser Team</h2>
+    <div class="team-member">
+      <strong>JudoKing</strong> – Serverleitung & Entwicklung
+    </div>
+    <div class="team-member">
+      <strong>Simba</strong> – Moderator & Support (und Katze 😺)
+    </div>
+  </section>
+
+  <section id="shop">
+    <h2>Shop</h2>
+    <p>Demnächst verfügbar! Hier wirst du Ränge und Items kaufen können.</p>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <form>
+      <input type="text" name="name" placeholder="Dein Name" required>
+      <input type="email" name="email" placeholder="Deine E-Mail" required>
+      <textarea name="nachricht" rows="5" placeholder="Deine Nachricht" required></textarea>
+      <button type="submit">Absenden</button>
+    </form>
+  </section>
+
+  <div class="discord-link">
+    <p>Trete unserem Discord bei: <a href="https://discord.gg/sbfRayNFpR" target="_blank">discord.gg/sbfRayNFpR</a></p>
+  </div>
+
+  <footer>
+    &copy; 2025 OPDeutschland - Alle Rechte vorbehalten
+  </footer>
+</body>
+</html>
